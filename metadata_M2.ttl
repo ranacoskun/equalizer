@@ -1,0 +1,51 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <https://www.w3.org/TR/prov-o/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i2>
+  a dcat:Dataset, <https://www.w3.org/TR/prov-o/Entity>, dcterms:LicenseDocument ;
+  adms:identifier "M2" ;
+  dcterms:title "M2" ;
+  dcterms:description "Mashup dataset regarding the gap of hourly wage between sexes according to education for the years 2014, 2018, 2022" ;
+  dct:subject <http://eurovoc.europa.eu/687>, <http://data.europa.eu/bkc/013.07.00.0850>, <http://publications.europa.eu/resource/authority/sdmxglossary2018/EDUCATION_LEV> ;
+  dcat:keyword "equal pay"@en, "hourly wage"@en, "educational attainment"@en, "turkey"@en, "sex"@en, "türkiye"@tur, "saatlik ücret"@tur, "eğitim durumu"@tur, ;
+  dcterms:publisher <https://github.com/ranacoskun/open_access> ;
+  dcterms:creator <https://github.com/ranacoskun>, <https://github.com/irematmar> ;
+  dcterms:issued "2024-06-08"^^xsd:date ;
+  dcterms:modified "2024-06-08"^^xsd:date ;
+  prov:wasDerivedFrom <https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Arastirmasi-2014-18861>, <https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Arastirmasi-2018-30580>, <https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Istatistikleri-2022-49750#:~:text=Sonuçlar%20incelendiğinde%20erkekler%20için%20aylık,55%2C4%20TL%20olarak%20gerçekleşti> ;
+  dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv> ;
+  dcat:startDate "2014-11-01"^^xsd:date ;
+  dcat:endDate "2022-11-01"^^xsd:date ;
+  dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
+  dcterms:language <http://publications.europa.eu/resource/authority/language/ENG/> ;
+  dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  dcterms:rightsHolder <https://github.com/ranacoskun/open_access> ;
+  dcterms:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> .
+
+<http://eurovoc.europa.eu/687>
+  a skos:Concept ;
+  skos:prefLabel "Equal pay"@en .
+
+<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv>
+  a dcat:Distribution ;
+  dcterms:title "CSV M2"@en ;
+  dcterms:description "Mashup dataset regarding the gap of hourly wage between sexes according to education for the years 2014, 2018, 2022"@en ;
+  dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
+  dcterms:licence <https://creativecommons.org/licenses/by-sa/4.0/> .
+
+<https://github.com/ranacoskun/open_access>
+  a dcterms:Agent ;
+  dcterms:identifier "equalizer" .
+
+<https://creativecommons.org/licenses/by-sa/4.0/>
+  a dcterms:LicenseDocument ;
+  dcterms:type <http://purl.org/adms/licencetype/Attribution> ;
+  foaf:name "CC BY-SA" ;
+  owl:versionInfo "4.0" .
