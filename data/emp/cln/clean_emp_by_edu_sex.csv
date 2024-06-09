@@ -1,0 +1,61 @@
+Educational Attainment,Sex,Year,Value
+"Less than primary, primary and lower secondary education",F,2014,24.4
+"Less than primary, primary and lower secondary education",F,2015,24.9
+"Less than primary, primary and lower secondary education",F,2016,25.3
+"Less than primary, primary and lower secondary education",F,2017,26.2
+"Less than primary, primary and lower secondary education",F,2018,26.6
+"Less than primary, primary and lower secondary education",F,2019,25.7
+"Less than primary, primary and lower secondary education",F,2020,22.7
+"Less than primary, primary and lower secondary education",F,2021,24.1
+"Less than primary, primary and lower secondary education",F,2022,26.2
+"Less than primary, primary and lower secondary education",F,2023,26.4
+"Less than primary, primary and lower secondary education",M,2014,66.2
+"Less than primary, primary and lower secondary education",M,2015,66
+"Less than primary, primary and lower secondary education",M,2016,66.5
+"Less than primary, primary and lower secondary education",M,2017,67.3
+"Less than primary, primary and lower secondary education",M,2018,67.4
+"Less than primary, primary and lower secondary education",M,2019,64
+"Less than primary, primary and lower secondary education",M,2020,60.2
+"Less than primary, primary and lower secondary education",M,2021,63.9
+"Less than primary, primary and lower secondary education",M,2022,66
+"Less than primary, primary and lower secondary education",M,2023,66
+Upper secondary and post-secondary non-tertiary education,F,2014,29
+Upper secondary and post-secondary non-tertiary education,F,2015,29.7
+Upper secondary and post-secondary non-tertiary education,F,2016,30
+Upper secondary and post-secondary non-tertiary education,F,2017,30.6
+Upper secondary and post-secondary non-tertiary education,F,2018,31.1
+Upper secondary and post-secondary non-tertiary education,F,2019,29.3
+Upper secondary and post-secondary non-tertiary education,F,2020,26.6
+Upper secondary and post-secondary non-tertiary education,F,2021,28.7
+Upper secondary and post-secondary non-tertiary education,F,2022,32.3
+Upper secondary and post-secondary non-tertiary education,F,2023,33.9
+Upper secondary and post-secondary non-tertiary education,M,2014,70.5
+Upper secondary and post-secondary non-tertiary education,M,2015,71
+Upper secondary and post-secondary non-tertiary education,M,2016,70.7
+Upper secondary and post-secondary non-tertiary education,M,2017,70.8
+Upper secondary and post-secondary non-tertiary education,M,2018,71.5
+Upper secondary and post-secondary non-tertiary education,M,2019,68.4
+Upper secondary and post-secondary non-tertiary education,M,2020,65
+Upper secondary and post-secondary non-tertiary education,M,2021,68.4
+Upper secondary and post-secondary non-tertiary education,M,2022,71.9
+Upper secondary and post-secondary non-tertiary education,M,2023,72.7
+Tertiary education,F,2014,61.4
+Tertiary education,F,2015,60.9
+Tertiary education,F,2016,60.3
+Tertiary education,F,2017,60.5
+Tertiary education,F,2018,60.6
+Tertiary education,F,2019,59.6
+Tertiary education,F,2020,56.1
+Tertiary education,F,2021,57.8
+Tertiary education,F,2022,59.9
+Tertiary education,F,2023,61.1
+Tertiary education,M,2014,81.5
+Tertiary education,M,2015,82.7
+Tertiary education,M,2016,81.4
+Tertiary education,M,2017,81.8
+Tertiary education,M,2018,81.3
+Tertiary education,M,2019,80.5
+Tertiary education,M,2020,78.8
+Tertiary education,M,2021,80.6
+Tertiary education,M,2022,82.1
+Tertiary education,M,2023,84.2

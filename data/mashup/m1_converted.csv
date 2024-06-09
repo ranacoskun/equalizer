@@ -1,0 +1,37 @@
+Education Level,Year,Sex,Value (TL),Value (Euro)
+Primary school and below,2014,Male,7.9,2.82
+Primary school and below,2014,Female,6.5,2.32
+Primary school and below,2018,Male,15,2.45
+Primary school and below,2018,Female,11.9,1.95
+Primary school and below,2022,Male,37.7,1.99
+Primary school and below,2022,Female,35.9,1.89
+Primary education and secondary school,2014,Male,7.7,2.75
+Primary education and secondary school,2014,Female,6.6,2.36
+Primary education and secondary school,2018,Male,14.7,2.4
+Primary education and secondary school,2018,Female,12,1.96
+Primary education and secondary school,2022,Male,39.4,2.08
+Primary education and secondary school,2022,Female,37,1.95
+High school,2014,Male,8.7,3.11
+High school,2014,Female,8,2.86
+High school,2018,Male,15.8,2.58
+High school,2018,Female,13.7,2.24
+High school,2022,Male,46.4,2.45
+High school,2022,Female,41.4,2.18
+Vocational high school,2014,Male,11.3,4.03
+Vocational high school,2014,Female,9.3,3.32
+Vocational high school,2018,Male,21.3,3.48
+Vocational high school,2018,Female,15.8,2.58
+Vocational high school,2022,Male,,
+Vocational high school,2022,Female,,
+Higher education,2014,Male,22.1,7.89
+Higher education,2014,Female,18.2,6.5
+Higher education,2018,Male,33.7,5.51
+Higher education,2018,Female,28.5,4.66
+Higher education,2022,Male,84.2,4.44
+Higher education,2022,Female,75.7,3.99
+Total,2014,Male,11.1,3.96
+Total,2014,Female,11.3,4.03
+Total,2018,Male,20.9,3.42
+Total,2018,Female,20.3,3.32
+Total,2022,Male,54.4,2.87
+Total,2022,Female,57.4,3.03
