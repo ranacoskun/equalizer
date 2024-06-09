@@ -1,35 +1,31 @@
-Education Level,Year,Sex,Hourly Wage,Gender Pay Gap (%)
-Primary school and below,2014,Male,7.9,-17.72
-Primary school and below,2014,Female,6.5,-17.72
-Primary school and below,2018,Male,15,-20.67
-Primary school and below,2018,Female,11.9,-20.67
-Primary school and below,2022,Male,37.7,-4.77
-Primary school and below,2022,Female,35.9,-4.77
-Primary education and secondary school,2014,Male,7.7,-14.29
-Primary education and secondary school,2014,Female,6.6,-14.29
-Primary education and secondary school,2018,Male,14.7,-18.37
-Primary education and secondary school,2018,Female,12,-18.37
-Primary education and secondary school,2022,Male,39.4,-6.09
-Primary education and secondary school,2022,Female,37,-6.09
-High school,2014,Male,8.7,-8.05
-High school,2014,Female,8,-8.05
-High school,2018,Male,15.8,-13.29
-High school,2018,Female,13.7,-13.29
-High school,2022,Male,46.4,-10.78
-High school,2022,Female,41.4,-10.78
-Vocational high school,2014,Male,11.3,-17.7
-Vocational high school,2014,Female,9.3,-17.7
-Vocational high school,2018,Male,21.3,-25.82
-Vocational high school,2018,Female,15.8,-25.82
-Higher education,2014,Male,22.1,-17.65
-Higher education,2014,Female,18.2,-17.65
-Higher education,2018,Male,33.7,-15.43
-Higher education,2018,Female,28.5,-15.43
-Higher education,2022,Male,84.2,-10.1
-Higher education,2022,Female,75.7,-10.1
-Total,2014,Male,11.1,1.8
-Total,2014,Female,11.3,1.8
-Total,2018,Male,20.9,-2.87
-Total,2018,Female,20.3,-2.87
-Total,2022,Male,54.4,5.51
-Total,2022,Female,57.4,5.51
+Educational Attainment,Year,Employment Rate(Male),Employment Rate(Female),Gender Employment Gap (%)
+"Less than primary, primary and lower secondary education",2014,66.2,24.4,171.31
+"Less than primary, primary and lower secondary education",2015,66,24.9,165.86
+"Less than primary, primary and lower secondary education",2016,66.5,25.3,162.85
+"Less than primary, primary and lower secondary education",2017,67.3,26.2,156.87
+"Less than primary, primary and lower secondary education",2018,67.4,26.6,153.76
+"Less than primary, primary and lower secondary education",2019,64,25.7,149.03
+"Less than primary, primary and lower secondary education",2020,60.2,22.7,165.64
+"Less than primary, primary and lower secondary education",2021,63.9,24.1,165.56
+"Less than primary, primary and lower secondary education",2022,66,26.2,151.91
+"Less than primary, primary and lower secondary education",2023,66,26.4,150
+Upper secondary and post-secondary non-tertiary education,2014,70.5,29,143.1
+Upper secondary and post-secondary non-tertiary education,2015,71,29.7,139.06
+Upper secondary and post-secondary non-tertiary education,2016,70.7,30,135.67
+Upper secondary and post-secondary non-tertiary education,2017,70.8,30.6,131.37
+Upper secondary and post-secondary non-tertiary education,2018,71.5,31.1,129.58
+Upper secondary and post-secondary non-tertiary education,2019,68.4,29.3,133.45
+Upper secondary and post-secondary non-tertiary education,2020,65,26.6,144.36
+Upper secondary and post-secondary non-tertiary education,2021,68.4,28.7,138.33
+Upper secondary and post-secondary non-tertiary education,2022,71.9,32.3,122.6
+Upper secondary and post-secondary non-tertiary education,2023,72.7,33.9,114.45
+Tertiary education,2014,81.5,61.4,32.75
+Tertiary education,2015,82.7,60.9,35.85
+Tertiary education,2016,81.4,60.3,35.01
+Tertiary education,2017,81.8,60.5,35.21
+Tertiary education,2018,81.3,60.6,34.14
+Tertiary education,2019,80.5,59.6,35.23
+Tertiary education,2020,78.8,56.1,40.46
+Tertiary education,2021,80.6,57.8,39.44
+Tertiary education,2022,82.1,59.9,37.03
+Tertiary education,2023,84.2,61.1,37.82
