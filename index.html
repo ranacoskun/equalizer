@@ -8,17 +8,15 @@
   <meta name="author" content="" />
   <title>EQUALIZER</title>
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-  <!-- Font Awesome icons (free version)-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-  <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
-  <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -89,115 +87,153 @@
               the institutions of the EU, enabling comparisons between countries and regions. But EUROSTAT does have
               data on Turkey as well. As Turkey is a candidate country for EU membership, EUROSTAT includes it in many
               of its statistical collections and publications.
-              <br> Here are the datasets used for our project:
-            <table>
+              <br> <br> Here are the datasets used for our project:
+            <table class="table table-striped table-dark table-hover">
+              <thead>
+                <tr>
+                  <th colspan="6" style="font-size: x-large;">Datasets</th>
+                </tr>
+                <tr>
+                  <th>#</th>
+                  <th>ID</th>
+                  <th>Description</th>
+                  <th>Dataset</th>
+                  <th>Catalogue</th>
+                  <th>URI</th>
+                  <th>Last Update</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>EMP_TUR</td>
+                  <td>Data on the employment percentages of people in Turkey, according to their sex</td>
+                  <td>Employment rates by sex, age and citizenship (%)</td>
+                  <td>Population and social conditions</td>
+                  <td><a
+                      href="https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergan/default/table?lang=en">EUROSTAT</a>
+                  </td>
+                  <td>24/04/2024 23:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>UNEMP_TUR</td>
+                  <td>Data on the unemployment percentages of people in Turkey, according to their sex</td>
+                  <td>Unemployment rates by sex, age and citizenship (%)</td>
+                  <td>Population and social conditions</td>
+                  <td><a
+                      href="https://ec.europa.eu/eurostat/databrowser/view/lfsa_urgan/default/table?lang=en">EUROSTAT</a>
+                  </td>
+                  <td>24/04/2024 23:00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>ED-EMP_TUR</td>
+                  <td>Data on the employment by educational attainment percentages of people in Turkey, according to
+                    their sex and educational level</td>
+                  <td>Employment by educational attainment level - annual data</td>
+                  <td>Population and social conditions</td>
+                  <td><a
+                      href="https://ec.europa.eu/eurostat/databrowser/view/lfsi_educ_a__custom_11640881/default/table?lang=en">EUROSTAT</a>
+                  </td>
+                  <td>24/04/2024 23:00</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>ED-UNEMP_TUR</td>
+                  <td>Data on the unemployment by educational attainment percentages of people in Turkey, according to
+                    their sex and educational level</td>
+                  <td>Unemployment by educational attainment level - annual data</td>
+                  <td>Population and social conditions</td>
+                  <td><a
+                      href="https://ec.europa.eu/eurostat/databrowser/product/view/une_educ_a?category=labour.employ.lfsi.une">EUROSTAT</a>
+                  </td>
+                  <td>24/04/2024 23:00</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>ED-WAGE_TUR_2014</td>
+                  <td>Data on the hourly average gross wage and Monthly paid hour by sex, in TL</td>
+                  <td>Average working hours and monthly average gross wage by sex and educational attainment, 2014(1)
+                  </td>
+                  <td>Kazanç Yapısı Araştırması, 2014</td>
+                  <td><a
+                      href="https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Arastirmasi-2014-18861">TURKSTAT</a>
+                  </td>
+                  <td>17/12/2015 10:00</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>ED-WAGE_TUR_2018</td>
+                  <td>Data on the hourly average gross wage and Monthly paid hour by sex, in TL</td>
+                  <td>Average working hours and monthly average gross wage by sex and educational attainment, 2018(1)
+                  </td>
+                  <td>Kazanç Yapısı Araştırması, 2018</td>
+                  <td><a
+                      href="https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Arastirmasi-2018-30580">TURKSTAT</a>
+                  </td>
+                  <td>24/12/2019 10:00</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>ED-WAGE_TUR_2022</td>
+                  <td>Data on the hourly average gross wage and Monthly paid hour by sex, in TL</td>
+                  <td>Average working hours and monthly average gross wage by sex and educational attainment, 2022(1)
+                  </td>
+                  <td>Kazanç Yapısı Araştırması, 2022</td>
+                  <td><a
+                      href="https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Istatistikleri-2022-49750#:~:text=Sonuçlar%20incelendiğinde%20erkekler%20için%20aylık,55%2C4%20TL%20olarak%20gerçekleşti.">TURKSTAT</a>
+                  </td>
+                  <td>25/12/2023 10:00</td>
+                </tr>
+              </tbody>
+            </table>
+            </p>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Datasets Produced</h3>
+            <p>
+            <table class="table table-striped table-dark table-hover">
               <tr>
+                <th colspan="6" style="font-size: x-large;">Datasets</th>
+              </tr>
+              <tr>
+                <th>#</th>
                 <th>ID</th>
-                <th>Description</th>
-                <th>Dataset</th>
-                <th>Catalogue</th>
-                <th>URI</th>
-                <th>Last Update</th>
+                <th>Name</th>
+                <th>Used Datasets</th>
               </tr>
               <tr>
-                <td>1:EMP_TUR</td>
-                <td>Data on the employment percentages of people in Turkey, according to their sex </td>
-                <td>Employment rates by sex, age and citizenship (%)</td>
-                <td>Population and social conditions</td>
-                <td><a
-                    href="https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergan/default/table?lang=en">EUROSTAT</a>
+                <th>1</th>
+                <td>M1</td>
+                <td>Mashup dataset regarding hourly wage by education and sex for the years 2014, 2018, 2022</td>
+                <td>
+                  <li>Average working hours and monthly average gross wage by sex and educational attainment, 2014(1)
+                  </li>
+                  <li>Average working hours and monthly average gross wage by sex and educational attainment, 2018(1)
+                  </li>
+                  <li>Average working hours and monthly average gross wage by sex and educational attainment, 2022(1)
+                  </li>
                 </td>
-                <td>24/04/2024 23:00</td>
               </tr>
               <tr>
-                <td>2:UNEMP_TUR</td>
-                <td>Data on the unemployment percentages of people in Turkey, according to their sex </td>
-                <td>Unemployment rates by sex, age and citizenship (%)</td>
-                <td>Population and social conditions</td>
-                <td><a
-                    href="https://ec.europa.eu/eurostat/databrowser/view/lfsa_urgan/default/table?lang=en ">EUROSTAT</a>
+                <th>2</th>
+                <td>M2</td>
+                <td>Mashup dataset regarding the gap of employment rates between sexes according to education from 2014
+                  to 2023</td>
+                <td>
+                  <li>Data on the employment by educational attainment percentages of people in Turkey, according to
+                    their sex and educational level</li>
+                  <li>Data on the employment percentages of people in Turkey, according to their sex</li>
                 </td>
-                <td>24/04/2024 23:00</td>
               </tr>
-              <tr>
-                <td>3:ED-EMP_TUR</td>
-                <td>Data on the employment by educational attainment percentages of people in Turkey, according to their
-                  sex and educational level</td>
-                <td>Employment by educational attainment level - annual data</td>
-                <td>Population and social conditions</td>
-                <td><a
-                    href="https://ec.europa.eu/eurostat/databrowser/view/lfsi_educ_a__custom_11640881/default/table?lang=en">EUROSTAT</a>
-                </td>
-                <td>24/04/2024 23:00</td>
-              </tr>
-              <tr>
-                <td>4:ED-UNEMP_TUR</td>
-                <td>Data on the unemployment by educational attainment percentages of people in Turkey, according to
-                  their sex and educational level</td>
-                <td>Unemployment by educational attainment level - annual data</td>
-                <td>Population and social conditions</td>
-                <td><a
-                    href="https://ec.europa.eu/eurostat/databrowser/product/view/une_educ_a?category=labour.employ.lfsi.une">EUROSTAT</a>
-                </td>
-                <td>24/04/2024 23:00</td>
-              </tr>
-              <tr>
-                <td>5:ED-WAGE_TUR_2014</td>
-                <td>Data on the hourly average gross wage and Monthly paid hour by sex, in TL</td>
-                <td>Average working hours and monthly average gross wage by sex and educational attainment, 2014(1)</td>
-                <td>Kazanç Yapısı Araştırması, 2014</td>
-                <td><a href="https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Arastirmasi-2014-18861">TURKSTAT</a>
-                </td>
-                <td>17/12/2015 10:00</td>
-              </tr>
-              <tr>
-                <td>6:ED-WAGE_TUR_2018</td>
-                <td>Data on the hourly average gross wage and Monthly paid hour by sex, in TL</td>
-                <td>Average working hours and monthly average gross wage by sex and educational attainment, 2018(1)</td>
-                <td>Kazanç Yapısı Araştırması, 2018</td>
-                <td><a href="https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Arastirmasi-2018-30580">TURKSTAT</a>
-                </td>
-                <td>24/12/2019 10:00</td>
-              </tr>
-              <tr>
-                <td>7:ED-WAGE_TUR_2022</td>
-                <td>Data on the hourly average gross wage and Monthly paid hour by sex, in TL</td>
-                <td>Average working hours and monthly average gross wage by sex and educational attainment, 2022(1)</td>
-                <td>Kazanç Yapısı Araştırması, 2022</td>
-                <td><a
-                    href="https://data.tuik.gov.tr/Bulten/Index?p=Kazanc-Yapisi-Istatistikleri-2022-49750#:~:text=Sonuçlar%20incelendiğinde%20erkekler%20için%20aylık,55%2C4%20TL%20olarak%20gerçekleşti.">TURKSTAT</a>
-                </td>
-                <td>25/12/2023 10:00</td>
               </tr>
             </table>
             </p>
           </div>
-          <!-- <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div> -->
         </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Mash up datasets</h3>
-            <!-- <div class="subheading mb-3">Intelitec Solutions</div> -->
-            <p>BURAYA EKLENECEK!!!</p>
-          </div>
-          <!-- <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div> -->
-        </div>
-        <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                    </div> -->
       </div>
     </section>
     <hr class="m-0" />
@@ -214,7 +250,10 @@
                   href="https://ec.europa.eu/eurostat/documents/64157/4392716/ESS-QAF-V2.0-final.pdf">Assurance
                   Framework of Eurostat (2019, Version 2)</a>, within 15 principles in total, they have five main
                 principles for quality assurance:
-              <table>
+              <table class="table table-striped table-dark table-hover">
+                <tr>
+                  <th colspan="6" style="font-size: x-large;">Quality Analysis</th>
+                </tr>
                 <tr>
                   <td class="no-wrap">Principle 11</td>
                   <td>Relevance</td>
@@ -306,9 +345,12 @@
               <li>INSPIRE: Directive 2007/2/EC that define particular limitation on public access for
                 the spatial and geo data.
               </li><br>
-            <table>
+            <table class="table table-striped table-dark table-hover">
               <tr>
-                <th></th>
+                <th colspan="6" style="font-size: x-large;">Legal analysis</th>
+              </tr>
+              <tr>
+                <th>#</th>
                 <th>To check</th>
                 <th>1</th>
                 <th>2</th>
@@ -396,13 +438,13 @@
                 <td></td>
                 <td>1.7 Are you using geolocalization capabilities ? Do you check that the geolocalization process can’t
                   identify single individuals in some circumstances?</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
               </tr>
               <tr>
                 <td></td>
@@ -524,14 +566,14 @@
               </tr>
               <tr>
                 <td></td>
-                <td>3.3 Do you release the API (in case you have) with an open source license ?</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>3.3 Do you release the API (in case you have) with an open source license?</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>N</td>
+                <td>N</td>
+                <td>N</td>
               </tr>
               <tr>
                 <td></td>
@@ -680,13 +722,13 @@
               <tr>
                 <td>6. Temporary aspects</td>
                 <td>6.1 Do you have a temporary policy for updating the dataset ? </td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
-                <td>N</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
               </tr>
               <tr>
                 <td></td>
@@ -913,8 +955,15 @@
           gender equality in the workplace. They collectively offer a nuanced view of gender inequality
           in employment and highlight areas where efforts can be focused to bridge the gap.
         </p>
+        <br><br>
+        <h4>Employment by Sex - Unemployment by Sex (Turkey, 2014-2023)</h4>
+        <p>These figures illustrate the trends in employment and unemployment over the past decade, specifically
+          focusing on gender
+          disparities within the Turkish workforce. By delineating the employment rates of males and females from 2014
+          to 2023, it offers insights into the shifting dynamics of workforce participation, highlighting any
+          disparities or convergences in male and female employment rates over the years.</p>
         <p>
-        <div class="row" style="background-color:rgb(242, 167, 137)">
+        <div class="row" style="background-color:rgb(246, 196, 189)">
           <div class="col-lg-6 col-md-12 my-5">
             <iframe src='https://flo.uri.sh/visualisation/18249421/embed' title='Interactive or visual content'
               class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;'
@@ -927,8 +976,15 @@
           </div>
         </div>
         </p>
+        <br><br>
+        <h4>Employment Rate By Sex and Gender Employment Gap (Turkey, 2014-2023)</h4>
+        <p>This figure presents a nuanced analysis of the gender employment gap in Turkey, portraying the disparities
+          in employment rates between males and females over the period of 2014 to 2023. By highlighting the magnitude
+          and fluctuations of this gap over time, it offers valuable insights into the progress, stagnation, or
+          regression in gender equality within the Turkish labor market.</p>
         <p>
-        <div class="row" style="background-color:rgb(246, 205, 189)">
+        <p>
+        <div class="row" style="background-color:rgb(246, 196, 189)">
           <div class="my-5">
             <iframe src='https://flo.uri.sh/visualisation/18305164/embed' title='Interactive or visual content'
               class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;'
@@ -936,6 +992,15 @@
           </div>
         </div>
         </p>
+        <br><br>
+        <h4>The Distribution of Employees by Education and Average Hourly Wage</h4>
+        <p>Offering a detailed breakdown of female and male employment across different educational attainment levels in
+          Turkey,
+          combined with the corresponding average hourly wages converted into Euros, these figures provide a granular
+          understanding of the intersectionality between education, gender, and wages within the Turkish workforce. They
+          illuminates any disparities or patterns in wage distribution among female workers based on their educational
+          backgrounds.</p>
+        <p>
         <p>
         <div class="row" style="background-color:rgb(246, 196, 189)">
           <div class="col-lg-6 col-md-12 my-5">
@@ -950,6 +1015,13 @@
           </div>
         </div>
         </p>
+        <br><br>
+        <p>
+        <h4>Hourly Wage by Educational Attainment Level and Sex</h4>
+        <p>This figure provides a comparative analysis of hourly wages among different educational attainment levels,
+          disaggregated by gender, and converted into Euros for clarity. By mapping out the wage disparities between
+          males and females across various educational backgrounds, it offers insights into the intersections of gender,
+          education, and income within the Turkish labor market landscape.</p>
         <p>
         <div class="row" style="background-color:rgb(246, 196, 189)">
           <div class="my-5">
@@ -962,26 +1034,57 @@
       </div>
     </section>
     <hr class="m-0" />
-    <!-- Awards - RDF assertion of the metadata-->
+    <!--RDF assertion of the metadata-->
     <section class="resume-section" id="rdf">
       <div class="resume-section-content">
         <h2 class="mb-5">RDF assertion of the metadata</h2>
         <p>We have created throughly decribed metadata for our mashup datasets and our Catalogue, following the
           specification of DCAT-AP, an RDF vocabulary designed to facilitate interoperability between data-catalogs
           published on the Web. Here you can reach them directly:
-          <li><a href="">Mashup dataset regarding hourly wage by education and sex for the years 2014, 2018, 2022</a>
+          <li><a href="https://raw.githubusercontent.com/ranacoskun/equalizer/main/metadata/metadata_M1.ttl">Mashup
+              dataset regarding hourly wage by education and sex for the years 2014, 2018, 2022</a>
           </li>
-          <li><a href="">Mashup dataset regarding the gap of employment rates between sexes according to education from
+          <li><a href="https://raw.githubusercontent.com/ranacoskun/equalizer/main/metadata/metadata_M2.ttl">Produced
+              dataset regarding the gap of employment rates between sexes according to education from
               2014 to 2023</a> </li>
-          <li><a href="">Catalogue containing mashed-up datasets for the Project Equalizer</a> </li>
-
+          <li><a
+              href="https://raw.githubusercontent.com/ranacoskun/equalizer/main/metadata/metadata_catalogue.ttl">Catalogue
+              containing mashed-up datasets for the Project Equalizer</a> </li>
         </p>
       </div>
     </section>
+    <footer class="text-center text-white" style="background-color: rgba(130, 121, 121, 1)">
+      <div class="container">
+        <hr class="my-5" />
+        <section class="mb-1">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6">
+              <p>
+                This project was developed by Rana Coşkun and İrem Atmar for the course Open Access and Digital Ethics
+                by professor Palmirani in Master's Degree of Digital Humanities and Digital Knowledge a.y. 2023-24.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="text-center mb-3">
+          <a href="https://github.com/ranacoskun/equalizer" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a class="text-white" href="https://ranacoskun.github.io/equalizer/">Equalizer</a>
+        <br> This work is published under the license : <a href="https://creativecommons.org/licenses/by/4.0/deed">CC BY
+          4.0</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   </div>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Core theme JS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 

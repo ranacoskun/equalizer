@@ -7,18 +7,18 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<https://raw.githubusercontent.com/ranacoskun/equalizer/main/data/mashup/M2.csv>
-  a dcat:Dataset, <https://www.w3.org/TR/prov-o/Entity>, dcterms:LicenseDocument ;
+<https://github.com/ranacoskun/equalizer/main/data/mashup/M2>
+  a dcat:Dataset, prov:Entity, dcterms:LicenseDocument ;
   adms:identifier "M2" ;
   dcterms:title "M2" ;
-  dcterms:description "Mashup dataset regarding the gap of employment rates between sexes according to education from 2014 to 2023" ;
+  dcterms:description "Produced dataset regarding the gap of employment rates between sexes according to education from 2014 to 2023" ;
   dct:subject <http://eurovoc.europa.eu/687>, <http://data.europa.eu/bkc/013.07.00.0850>, <http://publications.europa.eu/resource/authority/sdmxglossary2018/EDUCATION_LEV> ;
   dcat:keyword "employment"@en, "educational attainment"@en, "turkey"@en, "sex"@en, "türkiye"@tur, "istihdam"@tur, "eğitim durumu"@tur, ;
   dcterms:publisher <https://github.com/ranacoskun/equalizer/> ;
   dcterms:creator <https://github.com/ranacoskun>, <https://github.com/irematmar> ;
   dcterms:issued "2024-06-08"^^xsd:date ;
   dcterms:modified "2024-06-08"^^xsd:date ;
-  prov:wasDerivedFrom <https://ec.europa.eu/eurostat/databrowser/view/lfsi_educ_a__custom_11640881/default/table?lang=en>, <https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergan/default/table?lang=en>;
+  prov:wasDerivedFrom <https://ec.europa.eu/eurostat/databrowser/view/lfsi_educ_a__custom_11640881/default/table?lang=en>;
   dcat:distribution <https://raw.githubusercontent.com/ranacoskun/equalizer/main/data/mashup/M2.csv> ;
   dcat:startDate "2014-01-01"^^xsd:date ;
   dcat:endDate "2023-12-31"^^xsd:date ;
@@ -35,7 +35,7 @@
 <https://raw.githubusercontent.com/ranacoskun/equalizer/main/data/mashup/M2.csv>
   a dcat:Distribution ;
   dcterms:title "CSV M2"@en ;
-  dcterms:description "Mashup dataset regarding the gap of employment rates between sexes according to education from 2014 to 2023"@en ;
+  dcterms:description "Produced dataset regarding the gap of employment rates between sexes according to education from 2014 to 2023"@en ;
   dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
   dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
   dcterms:licence <https://creativecommons.org/licenses/by-sa/4.0/> .

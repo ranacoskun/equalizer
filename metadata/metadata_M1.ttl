@@ -7,8 +7,8 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<https://raw.githubusercontent.com/ranacoskun/equalizer/main/data/mashup/M1.csv>
-  a dcat:Dataset, <https://www.w3.org/TR/prov-o/Entity>, dcterms:LicenseDocument ;
+<https://github.com/ranacoskun/equalizer/main/data/mashup/M1>
+  a dcat:Dataset, prov:Entity, dcterms:LicenseDocument ;
   adms:identifier "M1" ;
   dcterms:title "M1" ;
   dcterms:description "Mashup dataset regarding hourly wage by education and sex for the years 2014, 2018, 2022" ;
@@ -33,7 +33,7 @@
   skos:prefLabel "Employment"@en .
 
 <https://raw.githubusercontent.com/ranacoskun/equalizer/main/data/mashup/M1.csv>
-  a dcat:Distribution ;
+  a dcat:Distribution;
   dcterms:title "CSV M1"@en ;
   dcterms:description "Mashup dataset regarding hourly wage by education and sex for the years 2014, 2018, 2022"@en ;
   dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;

@@ -5,25 +5,24 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<https://github.com/ranacoskun/open_access>
+<https://github.com/ranacoskun/equalizer/>
   a dcat:Catalog ;
   dc:title "equalizer"@en ;
-  dc:description "Catalogue containing mashed-up datasets for the Project Equalizer" ;
+  dc:description "Catalogue containing produced datasets for the Project Equalizer" ;
   dcat:keyword "hourly wage"@en, "educational attainment"@en, "turkey"@en, "sex"@en, "türkiye"@tur, "saatlik ücret"@tur, "eğitim durumu"@tur, "equal pay"@en;
   dcterms:issued "2024-06-08"^^xsd:date ;
   dcterms:modified "2024-06-08"^^xsd:date ;
-  dcat:datasets <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i2>, <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i3>, <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i4> ;
-  dcterms:publisher <https://github.com/ranacoskun/open_access> ;
+  dcat:datasets <https://github.com/ranacoskun/equalizer/main/data/mashup/M1>, <https://github.com/ranacoskun/equalizer/main/data/mashup/M2> ;
+  dcterms:publisher <https://github.com/ranacoskun/equalizer/> ;
   dcterms:creator <https://github.com/ranacoskun>, <https://github.com/irematmar> ;
   dc:language <http://publications.europa.eu/resource/authority/language/ENG> ;
   dc:license <https://creativecommons.org/licenses/by-nc/4.0/>, <https://creativecommons.org/licenses/by-sa/4.0/> ;
-  foaf:homepage <https://github.com/ranacoskun/open_access> .
+  foaf:homepage <https://github.com/ranacoskun/equalizer/> .
 
-<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i2> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
-<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i3> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
-<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i4> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
-<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i5> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
-<https://github.com/giorgiacrosilla/cif>
+<https://github.com/ranacoskun/equalizer/main/data/mashup/M1> a dcat:Dataset .
+<https://github.com/ranacoskun/equalizer/main/data/mashup/M2> a dcat:Dataset .
+
+<https://github.com/ranacoskun/equalizer/>
   a foaf:agent ;
   foaf:name "equalizer"@en .
 
@@ -34,12 +33,6 @@
 <https://github.com/irematmar>
   a foaf:Person ;
   foaf:name "İrem Atmar"@tur, "Irem Atmar"@en .
-
-<https://creativecommons.org/licenses/by-nc/4.0/>
-  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
-  dc:type <http://purl.org/adms/licencetype/Attribution> ;
-  foaf:name "CC BY-NC" ;
-  owl:versionInfo "4.0" .
 
 <https://creativecommons.org/licenses/by-sa/4.0/>
   a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
