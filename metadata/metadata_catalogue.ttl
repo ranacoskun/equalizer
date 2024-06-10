@@ -1,5 +1,6 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/>
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -16,7 +17,7 @@
   dcterms:publisher <https://github.com/ranacoskun/equalizer/> ;
   dcterms:creator <https://github.com/ranacoskun>, <https://github.com/irematmar> ;
   dc:language <http://publications.europa.eu/resource/authority/language/ENG> ;
-  dc:license <https://creativecommons.org/licenses/by-nc/4.0/>, <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  dc:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
   foaf:homepage <https://github.com/ranacoskun/equalizer/> .
 
 <https://github.com/ranacoskun/equalizer/main/data/mashup/M1> a dcat:Dataset .

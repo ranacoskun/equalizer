@@ -12,8 +12,8 @@
   adms:identifier "M2" ;
   dcterms:title "M2" ;
   dcterms:description "Produced dataset regarding the gap of employment rates between sexes according to education from 2014 to 2023" ;
-  dct:subject <http://eurovoc.europa.eu/687>, <http://data.europa.eu/bkc/013.07.00.0850>, <http://publications.europa.eu/resource/authority/sdmxglossary2018/EDUCATION_LEV> ;
-  dcat:keyword "employment"@en, "educational attainment"@en, "turkey"@en, "sex"@en, "türkiye"@tur, "istihdam"@tur, "eğitim durumu"@tur, ;
+  dcat:subject <http://eurovoc.europa.eu/687>, <http://data.europa.eu/bkc/013.07.00.0850>, <http://publications.europa.eu/resource/authority/sdmxglossary2018/EDUCATION_LEV> ;
+  dcat:keyword "employment"@en, "educational attainment"@en, "turkey"@en, "sex"@en, "türkiye"@tur, "istihdam"@tur, "eğitim durumu"@tur ;
   dcterms:publisher <https://github.com/ranacoskun/equalizer/> ;
   dcterms:creator <https://github.com/ranacoskun>, <https://github.com/irematmar> ;
   dcterms:issued "2024-06-08"^^xsd:date ;
